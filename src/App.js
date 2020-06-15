@@ -7,6 +7,7 @@ import Services from "./components/Services";
 import About from "./components/About.js";
 import Resources from "./components/Resources";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/resources" component={Resources} />
           <Route path="/contact" component={Contact} />
         </Switch>
+        <Footer />
       </div>
     </Router>
   );
