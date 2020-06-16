@@ -18,7 +18,7 @@ function Footer() {
             <a href="#">Indeed</a>
           </li>
         </ul>
-        <p>Tanner Gates &copy; 2020</p>
+        <p>Tanner Gates Web Development &copy; 2020</p>
       </div>
     </footer>
   );
