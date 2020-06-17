@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  color: #3b7f34;
+  color: #038c3e;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -10,7 +10,7 @@
 }
 
 header {
-  background-color: #f0e5d1;
+  background-color: #038c3e;
   width: 100%;
 }
 
@@ -26,7 +26,7 @@ nav img {
 }
 
 nav img:hover {
-  opacity: 0.3;
+  opacity: 0.4;
 }
 
 nav ul {
@@ -41,15 +41,15 @@ nav li {
 nav a {
   text-decoration: none;
   font-size: 2rem;
-  color: #3b7f34;
+  color: #f2f2f0;
 }
 
 nav a:hover {
-  color: #ffffff;
+  opacity: 0.4;
 }
 
 .hero {
-  background-image: url(./hero.jpg);
+  background-image: url(./hero.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
@@ -60,30 +60,35 @@ nav a:hover {
 .hero h1 {
   color: #000000;
   margin: 0 auto;
-  font-size: 3rem;
+  padding-top: 30px;
+  font-size: 4rem;
 }
 
 footer {
-  color: #f0e5d1;
-  background-color: #3b7f34;
+  color: #f2f2f0;
+  background-color: #038c3e;
   margin: 0 auto;
   width: 100%;
 }
 
+.footer-flex {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  align-items: center;
+}
+
 footer li {
   list-style-type: none;
+  padding: 10px 0 0 0;
 }
 
 footer a {
-  color: #f0e5d1;
+  color: #f2f2f0;
   text-decoration: none;
+  font-size: 2rem;
 }
 
 footer p {
-  color: #f0e5d1;
-  text-align: start;
-}
-
-footer h3 {
-  margin-top: 0;
+  align-self: flex-end;
 }
