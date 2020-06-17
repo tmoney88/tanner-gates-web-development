@@ -3,22 +3,28 @@ import React from "react";
 function Footer() {
   return (
     <footer>
-      <div className="container">
+      <div className="container footer-flex">
+        <p>Tanner Gates Web Development &copy; 2020</p>
         <ul>
           <li>
-            <h3>Links</h3>
+            <a
+              href="https://github.com/tmoney88"
+              target="_blank"
+              className="fab fa-github"
+            >
+              &nbsp;Github
+            </a>
           </li>
           <li>
-            <a href="#">Github</a>
-          </li>
-          <li>
-            <a href="#">LinkedIn</a>
-          </li>
-          <li>
-            <a href="#">Indeed</a>
+            <a
+              href="https://www.linkedin.com/in/tanner-gates-08493a160/"
+              target="_blank"
+              className="fab fa-linkedin"
+            >
+              &nbsp;LinkedIn
+            </a>
           </li>
         </ul>
-        <p>Tanner Gates Web Development &copy; 2020</p>
       </div>
     </footer>
   );
