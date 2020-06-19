@@ -8,15 +8,55 @@ function Home() {
         <h1>Let's Build Something</h1>
       </div>
       <h2>Skills</h2>
-      <div className="card-container">
-        <div>HTML</div>
-        <div>CSS</div>
-        <div>SASS</div>
-        <div>JavaScript</div>
-        <div>React.js</div>
-        <div>Node.js</div>
-        <div>Python</div>
-        <div>Django</div>
+      <div className="card-container container">
+        <div className="card">
+          <h3>HTML</h3>
+          <div>
+            <i class="fab fa-html5"></i>
+          </div>
+        </div>
+        <div className="card">
+          <h3>HTML</h3>
+          <div>
+            <i class="fab fa-html5"></i>
+          </div>
+        </div>
+        <div className="card">
+          <h3>HTML</h3>
+          <div>
+            <i class="fab fa-html5"></i>
+          </div>
+        </div>
+        <div className="card">
+          <h3>HTML</h3>
+          <div>
+            <i class="fab fa-html5"></i>
+          </div>
+        </div>
+        <div className="card">
+          <h3>HTML</h3>
+          <div>
+            <i class="fab fa-html5"></i>
+          </div>
+        </div>
+        <div className="card">
+          <h3>HTML</h3>
+          <div>
+            <i class="fab fa-html5"></i>
+          </div>
+        </div>
+        <div className="card">
+          <h3>HTML</h3>
+          <div>
+            <i class="fab fa-html5"></i>
+          </div>
+        </div>
+        <div className="card">
+          <h3>HTML</h3>
+          <div>
+            <i class="fab fa-html5"></i>
+          </div>
+        </div>
       </div>
     </div>
   );

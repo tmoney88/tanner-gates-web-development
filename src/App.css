@@ -97,6 +97,11 @@ footer p {
   font-size: 3rem;
 }
 
+h2 {
+  font-size: 3rem;
+  color: #000000;
+}
+
 .About img {
   height: 400px;
   width: 250px;
@@ -111,4 +116,25 @@ footer p {
   padding: 30px;
   width: 50%;
   line-height: 1.5;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  padding: 30px;
+  background-color: #d9c9ba;
+  margin: 20px;
+  width: 20%;
+}
+
+.card h3 {
+  font-size: 2rem;
+}
+
+.card i {
+  font-size: 2rem;
 }
