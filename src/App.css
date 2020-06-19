@@ -93,8 +93,13 @@ footer p {
   align-self: flex-end;
 }
 
+.About h1 {
+  font-size: 3rem;
+}
+
 .About img {
   height: 400px;
+  width: 250px;
 }
 
 .About div {
@@ -104,4 +109,6 @@ footer p {
 
 .About p {
   padding: 30px;
+  width: 50%;
+  line-height: 1.5;
 }
