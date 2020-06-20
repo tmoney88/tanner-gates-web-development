@@ -4,7 +4,7 @@ import aboutImg from "../about.png";
 function About() {
   return (
     <div className="About container">
-      <h1>About ME</h1>
+      <h1>About Me</h1>
       <div>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
