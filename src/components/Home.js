@@ -16,45 +16,45 @@ function Home() {
           </div>
         </div>
         <div className="card">
-          <h3>HTML</h3>
+          <h3>CSS</h3>
           <div>
-            <i class="fab fa-html5"></i>
+            <i class="fab fa-css3"></i>
           </div>
         </div>
         <div className="card">
-          <h3>HTML</h3>
+          <h3>SASS</h3>
           <div>
-            <i class="fab fa-html5"></i>
+            <i class="fab fa-sass"></i>
           </div>
         </div>
         <div className="card">
-          <h3>HTML</h3>
+          <h3>JavaScript</h3>
           <div>
-            <i class="fab fa-html5"></i>
+            <i class="fab fa-js"></i>
           </div>
         </div>
         <div className="card">
-          <h3>HTML</h3>
+          <h3>React</h3>
           <div>
-            <i class="fab fa-html5"></i>
+            <i class="fab fa-react"></i>
           </div>
         </div>
         <div className="card">
-          <h3>HTML</h3>
+          <h3>Node</h3>
           <div>
-            <i class="fab fa-html5"></i>
+            <i class="fab fa-node"></i>
           </div>
         </div>
         <div className="card">
-          <h3>HTML</h3>
+          <h3>Python</h3>
           <div>
-            <i class="fab fa-html5"></i>
+            <i class="fab fa-python"></i>
           </div>
         </div>
         <div className="card">
-          <h3>HTML</h3>
+          <h3>Django</h3>
           <div>
-            <i class="fab fa-html5"></i>
+            <i class="fab fa-python"></i>
           </div>
         </div>
       </div>
