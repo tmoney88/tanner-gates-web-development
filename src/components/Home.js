@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import "../App.css";
 
 function Home() {
+  const [showHtml, setShowHtml] = useState(false);
+  const [showCss, setShowCss] = useState(false);
+  const [showSass, setShowSass] = useState(false);
   return (
     <div className="container">
       <div className="hero">
@@ -9,23 +12,44 @@ function Home() {
       </div>
       <h2>Skills</h2>
       <div className="card-container container">
-        <div className="card">
+        <div
+          className="card"
+          onMouseEnter={() => setShowHtml(true)}
+          onMouseLeave={() => setShowHtml(false)}
+        >
           <h3>HTML</h3>
-          <div>
-            <i class="fab fa-html5"></i>
-          </div>
+          {showHtml && <div>HTML-description</div>}
+          {!showHtml && (
+            <div>
+              <i class="fab fa-html5"></i>
+            </div>
+          )}
         </div>
-        <div className="card">
+        <div
+          className="card"
+          onMouseEnter={() => setShowCss(true)}
+          onMouseLeave={() => setShowCss(false)}
+        >
           <h3>CSS</h3>
-          <div>
-            <i class="fab fa-css3"></i>
-          </div>
+          {showCss && <div>CSS-Description</div>}
+          {!showCss && (
+            <div>
+              <i class="fab fa-css3"></i>
+            </div>
+          )}
         </div>
-        <div className="card">
+        <div
+          className="card"
+          onMouseEnter={() => setShowSass(true)}
+          onMouseLeave={() => setShowSass(false)}
+        >
           <h3>SASS</h3>
-          <div>
-            <i class="fab fa-sass"></i>
-          </div>
+          {showSass && <div>SASS - Description</div>}
+          {!showSass && (
+            <div>
+              <i class="fab fa-sass"></i>
+            </div>
+          )}
         </div>
         <div className="card">
           <h3>JavaScript</h3>

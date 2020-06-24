@@ -139,6 +139,11 @@ h2 {
   border-radius: 25px;
 }
 
+.card:hover {
+  background-color: white;
+  color: black;
+}
+
 .card h3 {
   font-size: 2rem;
 }
