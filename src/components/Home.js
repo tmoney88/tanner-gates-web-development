@@ -5,6 +5,9 @@ function Home() {
   const [showHtml, setShowHtml] = useState(false);
   const [showCss, setShowCss] = useState(false);
   const [showSass, setShowSass] = useState(false);
+  const [showJs, setShowJs] = useState(false);
+  const [showReact, setShowReact] = useState(false);
+  const [showNode, setShowNode] = useState(false);
   return (
     <div className="container">
       <div className="hero">
@@ -51,23 +54,45 @@ function Home() {
             </div>
           )}
         </div>
-        <div className="card">
+        <div
+          className="card"
+          onMouseEnter={() => setShowJs(true)}
+          onMouseLeave={() => setShowJs(false)}
+        >
           <h3>JavaScript</h3>
-          <div>
-            <i class="fab fa-js"></i>
-          </div>
+          {showJs && <div>Javascript - Description</div>}
+          {!showJs && (
+            <div>
+              <i class="fab fa-js"></i>
+            </div>
+          )}
         </div>
-        <div className="card">
+        <div
+          className="card"
+          onMouseEnter={() => setShowReact(true)}
+          onMouseLeave={() => setShowReact(false)}
+        >
           <h3>React</h3>
-          <div>
-            <i class="fab fa-react"></i>
-          </div>
+          {showReact && <div>React - Description</div>}
+          {!showReact && (
+            <div>
+              <i class="fab fa-react"></i>
+            </div>
+          )}
         </div>
-        <div className="card">
+        <div
+          className="card"
+          onMouseEnter={() => setShowNode(true)}
+          onMouseLeave={() => setShowNode(false)}
+        >
           <h3>Node</h3>
-          <div>
-            <i class="fab fa-node"></i>
-          </div>
+          {showNode && <div>Node - Description</div>}
+
+          {!showNode && (
+            <div>
+              <i class="fab fa-node"></i>
+            </div>
+          )}
         </div>
         <div className="card">
           <h3>Python</h3>
