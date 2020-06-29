@@ -8,6 +8,8 @@ function Home() {
   const [showJs, setShowJs] = useState(false);
   const [showReact, setShowReact] = useState(false);
   const [showNode, setShowNode] = useState(false);
+  const [showPython, setShowPython] = useState(false);
+  const [showDjango, setShowDjango] = useState(false);
   return (
     <div className="container">
       <div className="hero">
@@ -94,17 +96,31 @@ function Home() {
             </div>
           )}
         </div>
-        <div className="card">
+        <div
+          className="card"
+          onMouseEnter={() => setShowPython(true)}
+          onMouseLeave={() => setShowPython(false)}
+        >
           <h3>Python</h3>
-          <div>
-            <i class="fab fa-python"></i>
-          </div>
+          {!showPython && (
+            <div>
+              <i class="fab fa-python"></i>
+            </div>
+          )}
+          {showPython && <div>Python - Description</div>}
         </div>
-        <div className="card">
+        <div
+          className="card"
+          onMouseEnter={() => setShowDjango(true)}
+          onMouseLeave={() => setShowDjango(false)}
+        >
           <h3>Django</h3>
-          <div>
-            <i class="fab fa-python"></i>
-          </div>
+          {!showDjango && (
+            <div>
+              <i class="fab fa-python"></i>
+            </div>
+          )}
+          {showDjango && <div>Django - Description</div>}
         </div>
       </div>
     </div>
